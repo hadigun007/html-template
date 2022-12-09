@@ -12,5 +12,5 @@ func main() {
 	static := http.FileServer(http.Dir("./static"))
 	http.Handle("/", static)
 
-	http.ListenAndServe(":8081", nil)
+	http.ListenAndServe(":8082", nil)
 }
